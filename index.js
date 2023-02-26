@@ -21,10 +21,16 @@ btn.addEventListener('click',()=>{
 // var src = document.getElementById("main");
 // src.appendChild(img);
 
-    // const node2 = document.createElement("img");
-    // const textnode2 = document.createTextNode("01.jpg");
-    // node2.appendChild(textnode2);
-    // document.getElementById("main").appendChild(node2);
+    const node2 = document.createElement("h3");
+    const textnode2 = document.createTextNode("I am curently studying in IT GGV in 3rd year");
+    node2.appendChild(textnode2);
+    document.getElementById("main").appendChild(node2);
+
+
+    const node3 = document.createElement("h4");
+    const textnode3 = document.createTextNode(" BUT I HAVE NO INTAREST IN ENGNEERING LIFE ");
+    node3.appendChild(textnode3);
+    document.getElementById("main").appendChild(node3);
 
     console.log("hello")
 });
