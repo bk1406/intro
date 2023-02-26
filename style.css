@@ -1,0 +1,33 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(226, 147, 78);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main>button{
+       font-size: 50px;
+       border-radius: 5px;
+
+}
+
+.mainchange{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-image: url(01.jpg);
+    background-repeat: no-repeat;
+    background-size: contain; */
+    
+}
